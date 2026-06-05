@@ -56,3 +56,50 @@ const sub = (a,b)=>{
 }
 
 sub(10,5)
+
+
+// practice code start here
+
+// practice 1
+
+// let number = 99;
+// if(number % 2 == 0){
+//     console.log("Even");
+// }else{
+//     console.log("Odd");
+// }
+
+// practice 2
+let firstNum = 1;
+let secondNum = 4;
+let thirdNum = 2;
+
+if(firstNum > secondNum && firstNum > thirdNum){
+    console.log("Fist number is the largst");
+}else if(secondNum > firstNum && secondNum > thirdNum){
+    console.log("Second number is the largst");
+}else{
+    console.log("Third number is the largst");
+}
+
+// practice 3
+let lightColor = 'green'
+
+if(lightColor == "red"){
+    console.log("Stop");
+}else if(lightColor == "yellow"){
+    console.log("Be ready");
+}else if(lightColor == "green"){
+    console.log("Please Go")
+}else{
+    console.log("Not working")
+}
+
+// practice 4
+let password = 'sag414';
+
+if(password.length < 6){
+    console.log("Your passwourd is less than 6!");
+}else{
+    console.log("Registration Successful");
+}
