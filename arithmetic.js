@@ -7,3 +7,22 @@ let people = 4;
 
 const remainder = cow % people;
 console.log(remainder);
+
+let number = 10;
+const squire = number * number;
+console.log(squire);
+
+
+const power = number**10;
+console.log(power);
+
+const myNumber = 99.45;
+// console.log(myNumber)
+// let round = Math.round(myNumber)
+// console.log(round)
+
+// let ceil = Math.ceil(myNumber);
+// console.log(ceil);
+
+let floor = Math.floor(myNumber);
+console.log(floor);
