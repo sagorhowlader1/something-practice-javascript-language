@@ -103,3 +103,32 @@ if(password.length < 6){
 }else{
     console.log("Registration Successful");
 }
+
+// practice 5
+for(let i = 2; i <=20; i++){
+    console.log("Table of ---", i);
+
+    for(let j = 1; j <=20; j++){
+        let x = i * j
+        console.log(i, " x ", j, "=", x);
+    }
+}
+
+
+// practice 6
+let sum = 0;
+
+for(let i = 1; i <=3; i++){
+    sum = sum + i
+}
+
+console.log(sum);
+
+
+let = 0;
+
+for(let i = 1; i <=5; i++){
+    sum = sum + i
+}
+
+console.log(sum);
