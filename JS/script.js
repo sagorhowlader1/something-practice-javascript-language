@@ -1,7 +1,7 @@
-console.log(document.title);
+// console.log(document.title);
 
 
-document.getElementById("mainTitle").innerText = "Hello, I am Sagor Howlader."
+// document.getElementById("mainTitle").innerText = "Hello, I am Sagor Howlader."
 
 // document.getElementsByClassName("paragraphText");
 // console.log(document.getElementsByClassName("paragraphText"));
@@ -11,8 +11,8 @@ document.getElementById("mainTitle").innerText = "Hello, I am Sagor Howlader."
 
 // const x = document.querySelector('p');
 // const x = document.querySelector('.paragraphText2');
-const x = document.querySelectorAll('.paragraphText');
-console.log(x);
+// const x = document.querySelectorAll('.paragraphText');
+// console.log(x);
 
 
 // alert('Welcome')
@@ -27,17 +27,17 @@ console.log(x);
 //     prompt("You are understand JavaScript Code?")
 // })
 
-const btn = document.getElementById('btn')
-btn.addEventListener('click', ()=>{
-    let myPrompt = prompt("You are understand JavaScript Code?")
-    alert(myPrompt)
-})
+// const btn = document.getElementById('btn')
+// btn.addEventListener('click', ()=>{
+//     let myPrompt = prompt("You are understand JavaScript Code?")
+//     alert(myPrompt)
+// })
 
 // const hereMe = ()=>{
 //     document.body.style.backgroundColor ='yellow'
 // }
 
-const hereMe = ()=>{
-    document.body.style.backgroundColor ='green'
-    alert('Your color has been changed!!!!')
-}
+// const hereMe = ()=>{
+//     document.body.style.backgroundColor ='green'
+//     alert('Your color has been changed!!!!')
+// }
