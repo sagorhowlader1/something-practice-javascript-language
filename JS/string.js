@@ -117,3 +117,23 @@ for(let w of word){
 }
 
 console.log(`Total word = ${word.length}, Total Characters = ${chars.length}, Development appears = ${count}`);
+
+
+let text = "abcdefghijklmnoptrsquvwxyz";
+document.write(text.length);
+
+// let paragraphText = "We are so-called \"Leraning\" web developer.";
+// let paragraphText = "We are so-called \\Leraning\\ web developer.";
+let paragraphText = "We are so-called \Leraning\ web developer.";
+// let paragraphText = "We are \bso-called \Leraning\ web developer.";
+// let paragraphText = "We are \fso-called \Leraning\ web developer.";
+// let paragraphText = "We are \nso-called \Leraning\ web developer.";
+// let paragraphText = "We are \rso-called \Leraning\ web developer.";
+// let paragraphText = "We are \tso-called \Leraning\ web developer.";
+// let paragraphText = "We are \vso-called \Leraning\ web developer.";
+console.log(paragraphText);
+
+let x = "Sagor";
+let y = new String("Sagor");
+console.log(x == y); //ture
+console.log(x === y); //false
